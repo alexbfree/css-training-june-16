@@ -1,0 +1,14 @@
+
+.s-box {
+  	border: 1px solid #ececec;
+  	padding: 10px;
+  	margin: 2em 0 2em 0;
+  }
+
+  .shape {
+  	float: left;
+  	width: 150px;
+  	height: 150px;
+  	margin: 20px;
+    shape-outside:circle(50%); /* 50% is the radius */
+  }

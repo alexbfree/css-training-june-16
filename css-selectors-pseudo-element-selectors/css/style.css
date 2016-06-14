@@ -1,0 +1,27 @@
+.intro::first-letter {
+  font-size:200%;
+  font-family:Times New Roman;
+  padding:2px;
+}
+
+p::first-line {
+  font-size: 140%;
+}
+
+.story::before {
+  content: "Once upon a time...";
+  display:block;
+  font-weight: bold;
+}
+
+.story::after {
+  content: "";
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+div:first-child::first-line {
+  color:red;
+}

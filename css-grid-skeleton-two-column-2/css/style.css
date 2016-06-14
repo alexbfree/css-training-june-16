@@ -1,0 +1,35 @@
+
+
+  .wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+  }
+
+  @media (min-width: 550px) {
+
+    .wrapper {
+      display: grid;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+    grid-template-columns: repeat(12, [col] 1fr);
+    }
+
+    .mainheader {
+      grid-column: col / span 12; 
+    }
+
+    .mainfooter {
+      grid-column: col / span 12;
+      grid-row: 3;
+    }
+
+    .content {
+      grid-column: col 5 / span 8;
+    }
+
+    .panel {
+      grid-column: col / span 4;
+    }
+}

@@ -1,0 +1,20 @@
+
+.wrapper {
+  height: 90vh;
+  width: 640px;
+  margin: 0 auto;
+  border: 5px solid #ccc;
+  display: table;
+}
+
+.box {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle; /* works because inline or table element (doesn't work on block level elements) */
+}
+
+.box p {
+  border: 5px solid #BD1550;
+  width: 200px;
+  margin: 0 auto;
+}

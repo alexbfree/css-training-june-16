@@ -1,0 +1,46 @@
+body {
+  margin: 2em 0 0 0;
+}
+
+.content, .inner {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 940px;
+}
+
+.footnotes {
+  border-top: 2px solid #ccc;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+img {
+  max-width:100%; /* ensures image to live within the column */
+}
+
+.content {
+	-webkit-column-width: 200px;
+	   -moz-column-width: 200px;
+	        column-width: 200px;
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+
+}
+
+.content h1 {
+  -webkit-column-span: all;
+     -moz-column-span: all;
+          column-span: all;
+}
+
+.content img {
+  display: block;
+  -webkit-column-span: all;
+     -moz-column-span: all;
+          column-span: all; /* all is the only option, can't just span a couple of columns */
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+

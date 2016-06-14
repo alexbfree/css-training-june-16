@@ -1,0 +1,15 @@
+.wrapper {
+  width:90%;
+  max-width:940px;
+  background-color:blue;
+  color:yellow;
+  padding:5px;
+}
+.inner {
+  width:50%;
+  background-color:red;
+  margin-left:10px;
+  padding-left: 10px;
+  padding-right:10px;
+  color:white;
+}

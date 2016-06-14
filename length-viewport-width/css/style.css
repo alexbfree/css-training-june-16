@@ -1,0 +1,17 @@
+body { overflow-y:scroll;}
+
+.col1 {
+  box-sizing: border-box;
+  padding: 1em;
+  border: 4px solid #ccc;
+  width: 30vw;
+  float:left;
+}
+
+.col2 {
+  box-sizing: border-box;
+  padding: 1em;
+  border: 4px solid #ccc;
+  float:right;
+  width: 65vw;
+}

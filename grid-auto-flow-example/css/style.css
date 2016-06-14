@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font: 87.5%/1.4 HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: dense; /* this will back fill the gaps */ /* default order is "sparse" */
+}
+
+@media (min-width: 460px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .text {
+    grid-column: 1 / 3;
+  }
+  .wide {
+    grid-column: auto / span 2; /* whatever it is - +2 lines */
+  }
+}
+
+@media (min-width: 660px) {
+  .wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .text {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+}
+
+.wrapper li {
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}

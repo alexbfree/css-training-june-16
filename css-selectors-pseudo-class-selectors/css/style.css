@@ -1,0 +1,27 @@
+.wrapper p:first-child {
+  font-weight: bold;
+  font-size:120%;
+}
+
+.wrapper p:last-child {
+  font-size:80%;
+}
+
+tr:nth-child(odd) {
+  background-color:lightblue;
+}
+
+tr:nth-child(3) {
+  color:yellow;
+}
+
+tr:nth-child(3n+1) {
+  font-family: Serif;
+}
+
+p:nth-of-type(odd) {
+  background-color: blue;
+  color:white;
+  padding:5px;
+}
+

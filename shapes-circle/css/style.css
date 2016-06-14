@@ -1,0 +1,53 @@
+  .s-box {
+  	border: 1px solid #ececec;
+  	padding: 10px;
+  	margin: 1em 0 2em 0;
+  }
+
+  .shape {
+  	float: left;
+  	width: 150px;
+  	height: 150px;
+  	margin: 20px;
+  	padding: 20px;
+  	background-color: #cccccc;
+  	border: 10px solid #999999;
+  }
+
+  .circle {
+    -webkit-shape-outside: circle(50%);
+            shape-outside: circle(50%);
+  }
+
+  .circle-coords {
+    -webkit-shape-outside: circle(50% at 50% 50%);
+            shape-outside: circle(50% at 50% 50%); /* radius at x, y - equiv to above*/
+  }
+
+  .circle-margin-box {
+    -webkit-shape-outside: circle(50%) margin-box;
+            shape-outside: circle(50%) margin-box;
+  }
+
+  .circle-border-box {
+    -webkit-shape-outside: circle(50%) border-box;
+            shape-outside: circle(50%) border-box;
+  }
+
+  .circle-padding-box {
+    -webkit-shape-outside: circle(50%) padding-box;
+            shape-outside: circle(50%) padding-box;
+  }
+
+  .circle-content-box {
+    -webkit-shape-outside: circle(50%) content-box;
+            shape-outside: circle(50%) content-box;
+  }
+
+  .circle-clip {
+    -webkit-shape-outside: circle(50%);
+            shape-outside: circle(50%);
+    -webkit-clip-path: circle(50%);
+            clip-path: circle(50%);
+  }
+

@@ -1,0 +1,13 @@
+.s-box {
+    border: 1px solid #ececec;
+    padding: 10px;
+    margin: 2em 0 2em 0;
+  }
+
+  .shape {
+    float: left;
+    width: 200px;
+    height: 200px;
+    shape-outside: inset(60px 0 60px 0 round 20px);
+  }
+

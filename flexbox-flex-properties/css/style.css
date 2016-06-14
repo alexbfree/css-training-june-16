@@ -1,0 +1,50 @@
+
+.wrapper {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+}
+
+.card {
+  border: 2px solid #490A3D;
+  border-radius:5px;
+  background-color: #BD1550;
+  color: #fff;
+  margin: 0 10px 0 10px;
+  flex: 1 1 0px; /* can grow and shrink from 200 */
+}
+
+
+.card h2 {
+  background-color: #490A3D;
+  margin: 0;
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card:nth-child(1) {
+
+}
+
+.card:nth-child(2) {
+  flex: 3 1 0px; /* flex-grow: 3... gets 3 parts of available leftover space where the others get 1 (divide extra space by 5 and divvy up 1 3- 1 ratio) */ /* flex basis 0 makes it more marked */
+  /* setting a flex-basis for this specific item is like setting a default just for this item */
+}
+
+.card:nth-child(3) {
+
+}
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}

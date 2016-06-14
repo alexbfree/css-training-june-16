@@ -1,0 +1,26 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.s-box {
+  	border: 1px solid #ececec;
+  	padding: 10px;
+  	margin: 1em 0 2em 0;
+  }
+
+  .shape {
+  	float: left;
+  	width: 200px;
+  	height: 200px;
+  	margin-top: 10px;
+  }
+
+.shape-polygon {
+  -webkit-shape-outside: polygon(0 20px, 160px 40px, 180px 70px, 180px 120px, 120px 200px, 60px 210px, 0 220px);
+          shape-outside: polygon(0 20px, 160px 40px, 180px 70px, 180px 120px, 120px 200px, 60px 210px, 0 220px); /* xy points, at least 3 required */
+}
+
+  
+  
+

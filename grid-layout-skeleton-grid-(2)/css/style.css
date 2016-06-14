@@ -1,0 +1,72 @@
+
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+  }
+
+  @media (min-width: 550px) {
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(12, [col] 1fr); /* repeat "1fr" named col 12 times */
+      grid-column-gap: 1em; /* grid-gap is shorthand for both column and row gap */
+      grid-row-gap: 1em;
+  }
+
+  .header {
+      grid-column: col / span 12; /* span 12 lines starting with the first column called "col" */
+      grid-row: 1;
+  }
+
+  .box1 {
+    grid-column: col / span 4; /* span 4 is like "this line plus 4" */
+  }
+
+  .box2 {
+    grid-column: col 5 / span 4; /* col 5 is the fifth line called col */
+   
+  }
+
+  .box3 {
+    grid-column: col 9 / span 4; /* col 5 is the fifth line called col */
+       
+  }
+
+  .box4 {
+    grid-column: col / span 8; /* col 5 is the fifth line called col */
+    
+  }
+
+  .box5 {
+    grid-column: col 9 / span 4;
+  }
+
+  .box6 {
+    grid-column: col / span 3; /* in this case col is optional, because we just broke to a new line */
+  }
+
+  .box7 {
+    grid-column: col 4 / span 3;
+  }
+
+  .box8 {
+    grid-column: col 7 / span 3;   
+  }
+
+  .box9 {
+    grid-column: col 10 / span 3;
+    grid-row: auto / span 2; /* you can span rows as well as columns!! */
+  }
+
+  .box10 {
+     grid-column: col / span 6;
+  }
+
+  .box11 {
+    grid-column: col 7 / span 3;
+  }  
+
+}

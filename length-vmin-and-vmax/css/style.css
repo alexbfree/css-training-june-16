@@ -1,0 +1,18 @@
+body { overflow-y:scroll;}
+
+.box {
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 0 auto 2em auto;
+  border: 4px solid #ccc;
+  width: 80vmin;
+}
+
+.box2 {
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 0 auto;
+  border: 4px solid #ccc;
+  width: 80vmax;
+}
+

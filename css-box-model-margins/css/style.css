@@ -1,0 +1,32 @@
+
+
+
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: #999;
+  color: #000;
+  border: 5px solid #666;
+  margin-top: 20px;
+  margin-bottom: 20px;/* note you get 20px not 40px between the two touching elements */
+}
+
+.empty {
+  margin: 20px auto;
+  background-color:blue;
+}
+
+.outer {
+   height: 200px;
+   width: 200px;
+   background-color: #999;
+   color: #000;
+   margin-top: 20px;
+  /* causes margin to no longer collapse padding:1px;  */
+}
+
+.nested {
+  width: 120px;
+  margin-top: 20px;
+}

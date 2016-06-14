@@ -1,0 +1,28 @@
+.wrapper {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* row by default - row-reverse, column-reverse, row, column are the options */
+  justify-content: space-around; /* options are space-between, space-around */
+  /* space-between keeps right and left flush */
+  flex-wrap: nowrap; /* by default*/
+}
+
+.main-nav li {
+  text-align: center;
+  background-color: rgb(73,10,61);
+}
+
+.main-nav a:link, .main-nav a:visited {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+

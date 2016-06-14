@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Grid auto-flow example </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+<link rel='stylesheet prefetch' href='css/http___codepen_io_rachela.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <ul class="wrapper">
+
+  <li class="text">
+    <p>In this example this text block is given a position on the grid. At the 460 pixel breakpoint it goes into the first row spanning both columns. At 660 pixels it spans 2 rows and goes into the second column, spanning two columns.</p>
+    <p>The other items are display according to the grid auto placement algorithm, with grid-auto-flow set to dense.</p>
+    <p>At the 660 pixel breakpoint I set two of the images to span 2 columns. These wide images mean that if we set grid-auto-flow to sparse there would be a gap where the image 'balloons 5' sits as it would be displayed in source order after the wider 'balloons
+      4' image which needs to drop down to the next row to have room.</p>
+  </li>
+  <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery1.jpg" alt="hot air balloon" />
+    <p>Balloons 1</p>
+  </li>
+  <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery4.jpg" alt="hot air balloon" />
+    <p>Balloons 2</p>
+  </li>
+
+  <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery5.jpg" alt="hot air balloon" />
+    <p>Balloons 3</p>
+  </li>
+  <li class="wide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery2.jpg" alt="hot air balloon" />
+    <p>Balloons 4</p>
+  </li>
+  <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery7.jpg" alt="hot air balloon" />
+    <p>Balloons 5</p>
+  </li>
+  <li class="wide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery8.jpg" alt="hot air balloon" />
+    <p>Balloons 6</p>
+  </li>
+  <li class="wide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery6.jpg" alt="hot air balloon" />
+    <p>Balloons 7</p>
+  </li>
+  <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery9.jpg" alt="hot air balloon" />
+    <p>Balloons 8</p>
+  </li>
+</ul>
+    
+    
+    
+    
+    
+  </body>
+</html>

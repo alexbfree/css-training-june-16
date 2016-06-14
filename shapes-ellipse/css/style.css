@@ -1,0 +1,33 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.s-box {
+  	border: 1px solid #ececec;
+  	padding: 10px;
+  	margin: 1em 0 2em 0;
+  }
+
+  .shape {
+  	float: left;
+  	width: 200px;
+  	height: 200px;
+  	margin: 20px;
+  }
+
+  
+  .ellipse-keywords {
+  	-webkit-shape-outside: ellipse(closest-side farthest-side);
+  	        shape-outside: ellipse(closest-side farthest-side); /* these reference the width and height of the image */
+  }
+
+  .ellipse-values {
+  	-webkit-shape-outside: ellipse(90px 150px at 50% 50%);
+  	        shape-outside: ellipse(90px 150px at 50% 50%);
+  }
+
+  .ellipse-center {
+  	-webkit-shape-outside: ellipse(90px 150px at 40% 50%);
+  	        shape-outside: ellipse(90px 150px at 40% 50%);
+  }

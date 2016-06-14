@@ -1,0 +1,41 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.s-box {
+  border: 1px solid #ececec;
+  padding: 10px;
+  margin: 1em 0 2em 0;
+}
+
+.shape {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.shape-image {
+  -webkit-shape-outside: url(https://test-37c0.kxcdn.com/noun_109069.png);
+          shape-outside: url(https://test-37c0.kxcdn.com/noun_109069.png);
+  -webkit-shape-image-threshold: 0.5;
+          shape-image-threshold: 0.5; /* alpha threshold */
+ 
+}
+
+.shape-image-margin {
+  -webkit-shape-outside: url(https://test-37c0.kxcdn.com/noun_109207_cc.png);
+          shape-outside: url(https://test-37c0.kxcdn.com/noun_109207_cc.png);
+  -webkit-shape-margin:20px;
+          shape-margin:20px;
+}
+
+/* what if you don't want to actually show the image */
+.content:before {
+  content: "";
+  float: left;
+  width: 200px;
+  height: 200px;
+  -webkit-shape-outside: url(https://test-37c0.kxcdn.com/alpha.png);
+          shape-outside: url(https://test-37c0.kxcdn.com/alpha.png);
+}

@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 20px 0 20px 0;
+  background: no-repeat center fixed url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/balloon-bg.jpg");
+  background-size: cover;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,.9);
+  border-radius: 5px;
+}
+
+.sidebar {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.main {
+  padding: 20px;
+}
+
+@media screen and (min-width: 700px) {
+
+.sidebar {
+  float: left;
+  width: 23.40425%;
+  margin-right: 20px;
+  padding: 0 0 0 20px;
+  border: none;
+}
+
+.main {
+  float: right;
+  width: calc(76.59574% - 20px);
+  padding: 0 20px 0 0;
+}
+  
+}

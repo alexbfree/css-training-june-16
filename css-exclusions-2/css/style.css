@@ -1,0 +1,12 @@
+
+
+img {
+			max-width:100%;
+  -ms-wrap-flow: both;
+		}
+
+.exclusion {
+  position: absolute;
+  top: 14em;
+  left: 14em;
+}

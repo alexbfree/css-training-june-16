@@ -1,0 +1,42 @@
+
+.wrapper {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.inner {
+  height: 90vh; /* required for align-content to work */
+  display: flex;
+  flex-flow: row wrap; /* equivalent to flex-direction:row, flex-wrap:wrap; */
+  align-content: space-between;
+  border: 5px solid #ccc;
+}
+
+.card {
+  border: 2px solid #490A3D;
+  border-radius:5px;
+  background-color: #BD1550;
+  color: #fff;
+  flex: 1 1 200px; /* short hand for flex-grow:1, flex-shrink:1, flex-basis: 200px */ 
+  /* flex-basis is suggested col width */
+
+}
+
+
+.card h2 {
+  background-color: #490A3D;
+  margin: 0;
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}

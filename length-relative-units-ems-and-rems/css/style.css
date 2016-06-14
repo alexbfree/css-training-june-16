@@ -1,0 +1,19 @@
+html {
+  font-size:14px;
+}
+.box1 {
+  width: 300px;
+  font-size: 20px;
+  border: 1rem solid #ccc;
+  margin-bottom: 20px;
+  padding: 1em;
+  
+}
+
+/* rem = relative to root font-size */
+.box2 {
+  width: 300px;
+  font-size: 40px;
+  border: 1rem solid #ccc;
+  padding: 1em;
+}
